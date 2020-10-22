@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  position: relative;
+}
+
+.container {
+  margin: auto;
+  padding: 0 20px;
+}
+
+#navbar {
+  background: #d5dee3;
+  color: #333;
+  overflow: hidden;
+  padding: 10px;
+}
+
+#navbar .logo a {
+  color: #333;
+  text-decoration: none;
+}
+
+.topnav a {
+  color: #333;
+  float: right;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+#navbar ul {
+  list-style: none;
+}
+
+.topnav a:hover {
+  background-color: #bfc7cc;
+}
+
+#navbar .logo a {
+  float: left;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#info {
+  margin: 30px;
+}
+
+#content {
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 2.5rem;
+}
+
+.signup {
+  color: #333;
+  margin: 25px;
+  padding-top: 25px;
+}
+
+.heading {
+  color: #333;
+  margin: 40px;
+}
+
+section p {
+  font-size: 13px;
+  padding: 5px;
+  line-height: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 13px;
+  color: #000;
+  background: #aab1b5;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  margin-left: 80px;
+}
+
+.btn1 {
+  display: inline-block;
+  font-size: 13px;
+  color: #333;
+  background: #d5dee3;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-left: 65px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.btn:hover {
+  background-color: #bfc7cc ;
+}
+
+.btn1:hover {
+  background-color: #bfc7cc ;
+}
+
+.par {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.par .info-left {
+  width: 50%;
+  min-height: 100%;
+  margin-bottom: 40px;
+}
+
+.par .info-right {
+  width: 50%;
+  min-height: 100%;
+}
+
+.par .info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 9%;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+#form {
+  margin: 30px;
+}
+
+.form-1 {
+  padding: 10px;
+  margin: 30px;
+}
+
+.form-1 label {
+  display: block;
+  padding: 5px;
+  margin-top: 5px;
+  color: #333;
+  font-size: 18px;
+}
+
+.form-1 input {
+  padding: 5px;
+  border: #bfc7cc 1px solid;
+  border-radius: 3px;
+}
+
+#male {
+  margin-right: 10px;
+  margin-left: 10px;
+} 
+
+#female {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#other {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#footer {
+  background: #d5dee3;
+  color: #333;
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#footer p {
+  font-size: 10px;
+  padding: 2px;
+  margin-top: 2px;
+}
